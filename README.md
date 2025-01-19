@@ -11,13 +11,13 @@ A simple, fully functional music player built with HTML, CSS, and JavaScript. Th
 - Interactive Playlist: View and select songs from a dynamically updated playlist.
 
 # Technologies Used :-
-HTML: Structure and layout of the player.
-CSS: Styling for a clean and user-friendly interface.
-JavaScript: Dynamic functionality and interaction.
+- HTML: Structure and layout of the player.
+- CSS: Styling for a clean and user-friendly interface.
+- JavaScript: Dynamic functionality and interaction.
 
 # Future Enhancements :-
-Volume control slider.
-Next/Previous song buttons.
-Repeat and shuffle functionality.
-Visualizer for music playback.
+- Volume control slider.
+- Next/Previous song buttons.
+- Repeat and shuffle functionality.
+- Visualizer for music playback.
 
