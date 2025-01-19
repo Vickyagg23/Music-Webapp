@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    margin-top: auto;
+    color: rgb(62, 102, 89);
+    
+ 
+}
+.player {
+    margin-top: 30px;
+    background-color: rgb(218, 208, 171);
+    border-style: double;
+    border-radius: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(145, 140, 122);
+}
+
+.song-list {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.song {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.song:hover {
+    background-color: #f0f0f0;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+    <h1>Music Player</h1>
+
+    <!-- Song Upload Section -->
+    <div>
+        <input type="file" id="songInput" accept="audio/*" multiple />
+        <button onclick="addSongs()">Add Songs</button>
+    </div>
+
+    <!-- Player Section -->
+    <div class="player">
+        <audio id="audioPlayer" controls></audio>
+
+        <div class="controls">
+            <button onclick="playSong()">Play</button>
+            <button onclick="pauseSong()">Pause</button>
+            <button onclick="stopSong()">Stop</button>
+        </div>
+
+    </div>
+
+    <!-- Song List -->
+    <div class="song-list" id="songList">
+        <h3>Playlist</h3>
+    </div>
+
+     
+    <script src="script.js"></script>
+</body>
+
+</html>
